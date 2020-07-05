@@ -1,6 +1,12 @@
 ### TFT Scraper
 A tool used to provide insight into your active TFT game. More details to come later.
 
+#### Usage
+TODO: Commands should not directly call main.py in the future. Need to package project
+`python main.py --user <username>` -> Creates a request and analyzes basic data for one user
+`python main.py --image <path/to/image>` -> Given a path to a loading screen image, analyzes all players
+`python main.py` -> Attempts to screenshot an active LoL Loading Screen Window (Mac OSX only, for now)
+
 #### TO-DO
 
 - Add MyPy support
